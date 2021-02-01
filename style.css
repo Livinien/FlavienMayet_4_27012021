@@ -311,6 +311,7 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 230px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -481,8 +482,11 @@ button {
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
+
+
 .icon-md {
-    font-size: 30px!important;
+    font-size: 20px!important;
+    
 }
 
 .icon-lg {
@@ -706,7 +710,7 @@ h2 {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -796,8 +800,20 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #615638;
     padding: 40px 40px 40px 40px;
+}
+
+
+
+.fa-twitter::before,
+.fa-facebook::before,
+.fa-dribbble::before,
+.fa-instagram::before {
+
+    content: '';
+    padding: 0 3px;
+    
 }
 
 .bold-link {
@@ -816,6 +832,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
+    
 }
 
 .tc-white {
@@ -824,12 +841,13 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    
+    
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+        
 }
 
 .ltc-white {
@@ -840,14 +858,17 @@ h4 {
 
 .ltc-white:hover {
     color: #ffd633!important;
+    
 }
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
+    
 }
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
+    
 }
 
 .icon-dark-slate-blue {
