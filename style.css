@@ -91,8 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.jpg");
-    background-size: 280px 280px;
+    
     background-color: #4d4d4d;
     opacity: 0.7;
 }
@@ -129,22 +128,7 @@ a:hover {
 }
 
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -487,7 +471,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 25px!important;
 }
 
 .icon-lg {
@@ -684,7 +668,9 @@ a {
 }
 
 .hero-bloc-text {
+
     font-size: 38px;
+    
 }
 
 .hero-bloc-text-sub {
@@ -710,13 +696,13 @@ p {
 blockquote {
 
     font-weight: bold;
-    color: #000000;
+    color: #000;
 }
 
 
 span {
 
-    color: #000000;
+    color: #000;
 
 }
 
@@ -743,9 +729,27 @@ span {
 
 
 .social {
-    max-width: 400px;
+    max-width: 450px;
     margin: auto auto auto auto;
+    
 }
+
+
+
+.col-sm-3 {
+
+    
+    margin-left: 70px;
+
+}
+
+
+.fa::before {
+
+    padding: 10px;
+
+}
+
 
 h2 {
     font-size: 24px;
@@ -819,9 +823,32 @@ h4 {
     background-color: #F3976C;
 }
 
+
+
+.texture-paper {
+
+    background-color: #81330f;
+
+}
+
 .tc-white {
     color: #F3976C!important;
 }
+
+
+.tc-white-page2 {
+
+    color: #F3976C!important;
+
+}
+
+
+.label1 {
+
+    width: 100%;
+
+}
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -855,9 +882,6 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
@@ -951,6 +975,34 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+
+
+    .portfolio-thumb {
+
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+
+
+    .social {
+        max-width: 400px;
+        margin: auto auto auto auto;
+        
+    }
+    
+    
+    
+    .col-sm-3 {
+    
+        
+        margin: 10px;
+    
+    }
+    
+    
+
     .b-parallax {
         background-attachment: scroll;
     }
