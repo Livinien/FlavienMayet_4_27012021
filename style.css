@@ -474,6 +474,13 @@ button {
     font-size: 25px!important;
 }
 
+
+.text-center em {
+
+    visibility: hidden;
+}
+
+
 .icon-lg {
     font-size: 60px!important;
 }
@@ -729,9 +736,10 @@ span {
 
 
 .social {
-    max-width: 450px;
+    max-width: 50px;
     margin: auto auto auto auto;
-    
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -972,8 +980,10 @@ h4 {
 
 
     .social {
-        max-width: 400px;
+        max-width: 50px;
         margin: auto auto auto auto;
+        display: flex;
+        flex-direction: column;
         
     }
     
